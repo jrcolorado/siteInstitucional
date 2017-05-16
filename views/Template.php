@@ -8,7 +8,8 @@
                   
                     <div class="topo1"></div>
              
-                    <div class="banner"></div>
+                    <div class="banner"> <img class = "img"src="/site/assets/portfolio/banner.jpeg"/> </div>
+                   
                                   
 		</div>
 		<div class="menu">
@@ -18,11 +19,15 @@
                         <a href="/site/Sobre"><li>SOBRE</li></a>
                         <a href="/site/Servicos"><li>SERVIÇOS</li></a>
                         <a href="/site/Contato"><li>CONTATO</li></a>
+                         <a href="/site/Localizacao"><li>LOCALIZAÇÂO</li></a>
                     </ul>
 		</div>
 		<div class="container">
                     <?php $this->loadViewInTemplate($viewName, $viewData); ?>
 		</div>
-		<div class="rodape"></div>
+            <div class="rodape">
+                <li> JrColorado - joaoromario@gmail.com - 55 51-991661595</li>
+                
+                </div>
 	</body>
 </html>

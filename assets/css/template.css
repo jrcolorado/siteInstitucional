@@ -1,31 +1,33 @@
 body {
     margin:0;
-    background-color:#1e1e1e;
+  background-color:#FFFFFF; 
 }
 h1 {
     margin:0;
     padding:0;
 }
 .topo {
-   
+ 
     width:100%;
     max-width:980px;
     height:250px;
     margin:auto;
 }
 .topo1 {
-    height:120px;
+    height:130px;
+    width: 100%;
+    
 }
 .banner {
     height:350px;
-    background-color:#514e51;
+    background-color:#FFFFFF;
 }
 .menu {
     width:100%;
     max-width:980px;
     height:50px;
     margin:auto;
-    background-color:#0062b7;
+    background-color:#1E90FF;
 }
 .container {
     width:100%;
@@ -39,9 +41,19 @@ h1 {
     width:100%;
     max-width:980px;
     margin:auto;
-    height:100px;
-    background-color:#303030;
-    margin-bottom:50px;
+    height:50px;
+    background-color:#1E90FF;
+    margin-bottom:50px;  
+}
+.rodape li{
+    text-align: center;
+      list-style:none;
+    height:50px;
+    line-height:50px;
+  
+    padding-left:10px;
+    padding-right:10px;
+    color:#FFFFFF;
 }
 .menu ul {
     list-style:none;
@@ -89,4 +101,16 @@ h1 {
 }
 .contato textarea {
     height:150px;
+}
+
+.maps{
+    float: right;
+    width: 60%;
+}
+.end{
+    float: left;
+    width: 40%}
+.img{
+    height: 130px;
+    width: 100%;
 }
